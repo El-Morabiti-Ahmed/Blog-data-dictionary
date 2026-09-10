@@ -1,9 +1,11 @@
 name, meaning, type, format, size, required, calculated
-user_name, unique identifier for a user, text, string, 100, yes, no
+username, unique identifier for a user, text, string, 100, yes, no
 email, unique email address of the user, text, string, 255, yes, no
 password, hashed password for user authentication, text, string, 100, yes, no
 title, title of the article, text, string, 100, yes, no
+article_image, URL of the article's image, text, string, 255, yes, no
 content, main body of the article, text, string, 5000, yes, no
+author_username, username of the article's author, text, string, 100, yes, no
 date_created, timestamp of when the article was created, date, DD/MM/YYYY, __, yes, no
 category_name, name of category, text, string, 50, yes, no
 description, brief description of the category, text, string, 255, yes, no
