@@ -1,0 +1,9 @@
+COMMANDE(
+    numero_commande,
+    date_commande,
+    nom_client,
+    email_client,
+    nom_produit,
+    prix_produit,
+    quantite_commandee
+)
