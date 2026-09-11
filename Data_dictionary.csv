@@ -1,15 +1,19 @@
 interface,name,meaning,type,required,calculated
+user,user_id,unique identifier for the user,int,yes,no
 user,username,unique identifier,string,yes,no
 user,email,unique email address,string,yes,no
 user,password,hashed password,string,yes,no
-user,profile picture,the user's profile picture,string,yes,no
+user,profile_picture,the user's profile picture,string,no,no
+article,article_id,unique identifier for the article,int,yes,no
 article,title,title of the article,string,yes,no
+article,category_id,unique identifier for the article's category,int,yes,no
 article,article_image,URL of the article image,string,yes,no
 article,content,main body of the article,string,yes,no
-article,author_username,username of the author,string,yes,no
+article,author_id,unique identifier for the article's author,int,yes,no
 article,date_created,timestamp of when created,date,yes,no
 article,status,whether the article is published,string,yes,no
 article,estimated_read_time,how long it might take to read,time,yes,yes
+category,category_id,unique identifier for the category,int,yes,no
 category,category_name,name of category,string,yes,no
 category,color,the color designated,string,yes,no
 category,icon,the icon designated,string,yes,no
